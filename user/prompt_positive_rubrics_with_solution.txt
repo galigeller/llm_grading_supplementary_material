@@ -1,0 +1,32 @@
+The student had to solve this task:
+<task>
+{task}
+</task>
+
+This is one possible solution but there may be others:
+<example-solution>
+{solution}
+</example-solution>
+
+Grade this student answer:
+<student-answer>
+{answer}
+</student-answer>
+
+Strictly follow these rubrics for grading:
+<rubrics>
+{rubrics}
+</rubrics>
+
+Format your response similar to this example:
+<formatting-example>
+<rubric-{rubric_number}>
+    <my-thoughts>
+    The rubric: "The student used a for loop."
+     The student used a for loop.
+    The statement in the rubric is TRUE for this solution.
+    </my-thoughts>
+  Is the rubric statement TRUE for the student’s solution? (Yes/No): Yes
+    <{question_id}_rubric{rubric_number}_output>True</{question_id}_rubric{rubric_number}_output>
+<rubric-{rubric_number}>
+</formatting-example>
